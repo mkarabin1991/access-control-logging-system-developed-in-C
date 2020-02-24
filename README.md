@@ -1,4 +1,6 @@
 # access-control-logging-system-developed-in-C
+This is an access control logging system developed in C. The system keeps track of all file accesses and modifications. More specifically, every file operation(such as open or modification) will generate an entry in a log file, stored for further investigation by a separate high privileged process.
+
 
 Program needs a prog.c program from user (included example), that will do stuff with files(open-fopen-write-fwrite) and of course the files that
 the prog tries to access. It creates with append mode a file in /tmp direcotry as a logfile.
